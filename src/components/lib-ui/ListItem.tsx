@@ -91,6 +91,7 @@ export function ListItem({
                             [&>div:nth-child(even)]:pl-2
                             mobile:[&>div:not(:first-child)]:border-l
                             mobile:[&>div:not(:first-child)]:pl-2
+                            [&>div:last-child]:col-span-2
                             border-gray-300"
                         >
                             {speaker && (
